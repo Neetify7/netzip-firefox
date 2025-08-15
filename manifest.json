@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "NetZIP",
+  "version": "1.0",
+  "description": "Recursive site crawler and automatic downloader with ZIP option.",
+  "permissions": ["downloads", "activeTab", "tabs", "scripting", "storage", "<all_urls>"],
+  "background": {
+    "scripts": ["jszip.min.js", "background.js"]
+  },
+  "devtools_page": "devtools.html",
+  "web_accessible_resources": [
+      "jszip.min.js"
+  ]
+}

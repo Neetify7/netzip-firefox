@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-weight: 350;
+    }
+
+    body {
+      background-color: #000000;
+      color: #e1e1e1;
+      font-family: 'Noto Sans';
+      font-size: 18px;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 500px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    button {
+      background-color: #202020;
+      color: #e1e1e1;
+      font-family: 'Noto Sans';
+      width: 150px;
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      margin: 5px;
+      font-size: 18px;
+      transition: all ease 0.1s;
+    }
+
+    button:hover {
+      background-color: #151515;
+      cursor: pointer;
+    }
+
+    a {
+      color: #ff5d5d;
+      text-decoration: none;
+      transition: all ease 0.1s;
+      padding: 15px;
+    }
+
+    a:hover {
+      color: #e1e1e1;
+    }
+
+    #Progress {
+      font-size: 35px;
+    }
+  </style>
+</head>
+<body class="center">
+  <h1 style="margin-top: -30px;">NetZIP</h1>
+  <p class="reload">RELOAD PAGE TO CRAWL (ADD CREDIT)</p>
+  <button id="downloadCurrent">CRAWL PAGE</button>
+  <button id="crawlSite">CRAWL SITE</button>
+  <button id="stopDownloads">STOP</button>
+  <br></br>
+  <div id="Progress">0%</div>
+  <br>
+  <a href="https://github.com/Neetify7/NetZIP">SOURCE</a>
+  <a href="https://github.com/Stuk/jszip">JSZip</a>
+  <script src="panel.js"></script>
+</body>
+</html>
