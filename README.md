@@ -16,7 +16,6 @@ You can use Google and its forks with https://github.com/Neetify7/netzip-chromiu
 6. Click load temporary add-on
 7. <strong>Go</strong> the unzipped folder from step 3
 8. Click on <strong>manifest.json</strong>
-9. 
 
 Firefox may think this extension is unsafe but this is a false positive since the extension needs to read the site to download it. (<strong>do not</strong> change the temporary addon or else the extension will not work)
 
