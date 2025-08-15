@@ -1,5 +1,5 @@
 # netzip-firefox
-A tool used to crawl the network tab and ZIP the contents.
+A Firefox based extension used to crawl the network tab and ZIP the contents. (to use the <strong>Chromium</strong> version, go to https://github.com/Neetify7/netzip-chromium)
 
 ## Requirements
 - Firefox (Firefox, Librewolf, etc)
